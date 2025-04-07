@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Admin</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+   <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container d-flex justify-content-between align-items-center"> 
+      <!-- Brand -->
+      <a class="navbar-brand" href="#">Feelknee</a>
+
+      <!-- Button Toggle -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar Content -->
+      <div class="collapse navbar-collapse justify-content-lg-end" id="navbarNav">
+        <ul class="navbar-nav ms-auto text-center"> 
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Kelola Data
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="data-penyakit.html">Data Penyakit</a></li>
+                  <li><a class="dropdown-item" href="data-gejala.html">Data Gejala</a></li>
+                </ul>
+              </li>
+      
+          <li class="nav-item">
+            <a class="nav-link active" href="#Informasi">Basis Khasus</a>
+          </li>
+          <li class="nav-item mt-2 mt-lg-0 ms-lg-3"> 
+            <a href="login-admin.html" class="btn btn-primary btn-sm">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <!-- Home Page Section 1 -->
+    <header class="bg-light py-5">
+        <div class="container text-center">
+            <h1 class="fw-bold">Selamat Datang di Dashboard Admin</h1>
+            <p class="lead">Kelola data pasien dan laporan diagnosa dengan mudah.</p>
+            <a href="#" class="btn btn-primary">Kelola Data</a>
+            <a href="#" class="btn btn-success">Lihat Riwayat User</a>
+        </div>
+    </header>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

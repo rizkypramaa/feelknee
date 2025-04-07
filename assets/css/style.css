@@ -1,0 +1,687 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  .wrapper{
+    max-width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+/* FONTN SIZE */
+.fs-xxl-12{
+    font-size: 12px !important;
+}
+.fs-xxl-16{
+    font-size: 16px !important;
+}
+
+.fs-xxl-17{
+    font-size: 17px !important;
+}
+
+.fs-xxl-20{
+    font: size 20px !important;
+}
+
+.fs-xxl-24{
+    font-size: 24px !important;
+}
+
+.fs-xxl-26{
+    font-size: 26px !important;
+}
+
+.fs-xxl-28{
+    font-size: 28px !important;
+}
+
+.fs-xxl-30{
+    font-size: 30px !important;
+}
+
+.fs-xxl-34{
+    font-size: 34px !important;
+}
+
+.fs-xxl-39{
+    font-size: 39px !important;
+}
+
+.fs-xxl-40{
+    font-size: 40px !important;
+}
+
+.fs-xxl-45{
+    font-size: 45px !important; 
+}
+
+.fs-xxl-57{
+    font-size: 57px !important;
+}
+
+.fs-xxl-62{
+    font-size: 62px !important;
+}
+
+.fs-xxl-81{
+    font-size: 81px !important;
+}
+
+
+.container-fluid{
+    max-width: 1920px !important;
+    padding: 0px !important;
+}
+
+.margin-left{
+    margin-left: 20px !important;
+}
+
+/* costum */
+
+.padding-custom{
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.section-1{
+    background-image: url(../image/bg1.png);
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+
+}
+
+.section-2{
+    padding: 30px;
+}
+
+/* Section 3 */
+
+.section-3{
+  padding: 50px;
+}
+
+/* --------- Our Services --------- */
+.heading-style1 {
+  margin: 0 0 30px;
+}
+.heading-style1 span {
+  color: #4d72d0;
+  font-style: italic;
+  position: relative;
+  font-weight: 500;
+  font-size: 13px;
+}
+.heading-style1 h2 {
+  font-weight: 600;
+}
+
+.service-slider .slick-slide {
+  margin: 0 12px;
+}
+
+.service-slider .slick-next {
+  right: 23px;
+  top: -68px;
+}
+.service-slider .slick-next:before {
+  font-size: 32px;
+  color: #9e9a9a;
+  font-family: none;
+  content: url(../images/arrow-right.png);
+}
+
+.service-slider .slick-prev {
+  right: 56px !important;
+  left: 93%;
+  top: -68px;
+}
+.service-slider .slick-prev:before {
+  font-size: 32px;
+  color: #9e9a9a;
+  font-family: none;
+  content: url(../images/arrow-left.png);
+}
+
+.service-block {
+  position: relative;
+  padding: 80px 30px;
+  border: 10px solid #fff;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  margin: 0 0 25px;
+}
+.service-block:focus {
+  outline: none;
+}
+.service-block h3 {
+  color: #000;
+  margin: 32px 0 12px;
+}
+.service-block a {
+  margin: 17px 0 0;
+}
+
+.service-bg-icon {
+  position: absolute;
+  right: 0;
+  top: 9%;
+}
+
+.service-block.yellow:hover {
+  border-color: #c0b099;
+}
+.service-block.yellow:hover a {
+  background: #a79274 !important;
+  -webkit-box-shadow: 4.5px 7.794px 13px 0px #a79274;
+          box-shadow: 4.5px 7.794px 13px 0px #a79274;
+}
+
+.service-block.green:hover {
+  border-color: #bae2d5;
+}
+.service-block.green:hover a {
+  background: #52af90 !important;
+  -webkit-box-shadow: 4.5px 7.794px 13px 0px #52af90;
+          box-shadow: 4.5px 7.794px 13px 0px #52af90;
+}
+
+.service-block.blue:hover {
+  border-color: #b5c4eb;
+}
+.service-block.blue:hover a {
+  background: #4d72d0 !important;
+  -webkit-box-shadow: 4.5px 7.794px 13px 0px #4d72d0;
+          box-shadow: 4.5px 7.794px 13px 0px #4d72d0;
+}
+
+.service-help_link {
+  margin: 35px 0 0;
+}
+
+/* Section 4 */
+
+.section-4{
+  padding: 50px;
+  padding-right: 50px;
+}
+
+/* Responsive XXL */
+@media screen and (max-width: 1400px) {
+    .model-1{
+        width: 900px;
+        height: auto;
+    }
+
+    .logo-lumi{
+        width: 500px;
+    }
+
+    .text-lg-start{
+        text-align: start;
+    }
+
+    .fs-min-15-xxl{
+        font-size: 15px !important;
+    }
+    .fs-min-20-xxl{
+        font-size: 20px !important;
+    }
+
+    .fs-min-22-xxl{
+        font-size: 22px !important;
+    }
+
+    .fs-min-25-xxl{
+        font-size: 25px !important;
+    }
+
+    .fs-min-28-xxl{
+        font-size: 28px !important;
+    }
+
+    .fs-min-30-xxl{
+        font-size: 30px !important;
+    }
+
+    .fs-min-32-xxl{
+        font-size: 32px !important;
+    }
+
+    .fs-min-35-xxl{
+        font-size: 35px !important;
+    }
+
+    .fs-min-38-xxl{
+        font-size: 38px !important;
+    }
+
+    .fs-min-40-xxl{
+        font-size: 40px !important;
+    }
+
+    .fs-min-45-xxl{
+        font-size: 45px !important;
+    }
+
+    .fs-min-50-xxl{
+        font-size: 50px !important;
+    }
+
+    .fs-min-55-xxl{
+        font-size: 55px !important;
+    }
+
+    .fs-min-70-xxl{
+        font-size: 70px !important;
+    }
+
+    .fs-min-75-xxl{
+        font-size: 75px !important;
+    }
+
+    .fs-min-80-xxl{
+        font-size: 80px !important;
+    }
+
+    .fs-min-100-xxl{
+        font-size: 100px !important;
+    }
+
+    .fs-min-110-xxl{
+        font-size: 110px !important;
+    }
+}
+
+
+/* Responsive XL */
+@media screen and (max-width: 1200px) {
+    .model-1{
+        max-width: 100% !important;
+        height: auto;
+    }
+
+    .logo-lumi{
+        width: 300px;
+    }
+
+    .sosmed-img{
+        width: 20px;
+    }
+
+    .carousel img {
+        width: 100%;
+        height: auto;
+    }
+
+    .fs-xl-12{
+        font-size: 12px !important;
+    }
+
+    .fs-xl-16{
+        font-size: 16px !important;
+    }
+    .fs-xl-17{
+        font-size: 17px !important;
+    }
+
+    .fs-xl-18{
+        font-size: 18px !important;
+    }
+
+    .fs-xl-20{
+        font-size: 20px !important;
+    }
+
+    .fs-xl-24{
+        font-size: 24px !important;
+    }
+
+    .fs-xl-25{
+        font-size: 25px !important;
+    }
+
+    .fs-xl-26{
+        font-size: 26px !important;
+    }
+
+    .fs-xl-28{
+        font-size: 28px !important;
+    }
+
+    .fs-xl-30{
+        font-size: 30px !important;
+    }
+
+    .fs-xl-35{
+        font-size: 35px !important;
+    }    
+
+    .fs-xl-39{
+        font-size: 39px !important;
+    }
+
+    .fs-xl-40{
+        font-size: 40px !important;
+    }
+
+    .fs-xl-45{
+        font-size: 45px !important; 
+    }
+
+    .fs-xl-47{
+        font-size: 47px !important; 
+    }
+
+    .fs-xl-50{
+        font-size: 50px !important; 
+    }
+
+    .fs-xl-65{
+        font-size: 65px !important; 
+    }
+
+    .fs-xl-85{
+        font-size: 85px !important; 
+    }
+
+    .fs-xl-90{
+        font-size: 90px !important; 
+    }
+}
+
+
+/* Responsive LG */
+@media screen and (max-width: 992px) {
+    .fs-lg-20{
+        font-size: 20px !important;
+    }
+
+    .fs-lg-30{
+        font-size: 30px !important;
+    }
+
+    .section-4{
+        background-image: none;
+        background-color: #E1F4FF !important;
+    }
+    .image-slider {
+        margin: 30px;
+        width: 75%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .dot-pagination span {
+        height: 5px;
+        width: 5px;
+        margin: 0 5px;
+        border-radius: 50%;
+        background-color: #bbb;
+        cursor: pointer;
+    }
+}
+
+/* Responsive MD */
+@media screen and (max-width: 768px) {
+    .slider-card {
+        min-width: 100%;
+    }
+
+    .slider-card img {
+        width: 250px;
+    }
+   
+    .lh-md-120{
+       line-height: 150% !important;
+   }
+
+   .lh-mg-40{
+       line-height: 40px !important;
+   }
+
+    .text-md-center{
+        text-align: center;
+    }
+
+    .section-custom{
+        background-image: url('../Images/bg-cust-mob.png');
+        background-size: cover;
+    }
+
+    .drop-faq{
+        width: 90% !important;
+        padding: 0px 15px !important;
+    }
+
+    .arrow-down{
+        width: 35px !important;
+    }
+
+    .sosmed-img{
+        width: 10px;
+    }
+
+    .checklist{
+        width: 40px !important;
+    }
+
+    .fs-md-9{
+        font-size: 9px !important;
+    }
+    .fs-md-10{
+        font-size: 10px !important;
+    }
+    .fs-md-12{
+        font-size: 12px !important;
+    }
+    .fs-md-13{
+        font-size: 13px !important;
+    }
+    .fs-md-14{
+        font-size: 14px !important;
+    }
+    .fs-md-15{
+        font-size: 15px !important;
+    }
+
+    .fs-md-16{
+      font-size: 16px !important;
+    
+    .fs-md-18{
+        font-size: 18px !important;
+    }
+    .fs-md-20{
+        font-size: 20px !important;
+    }
+    .fs-md-22{
+        font-size: 22px !important;
+    }
+    .fs-md-25{
+        font-size: 25px !important;
+    }
+    .fs-md-26{
+        font-size: 26px !important;
+    }
+
+    .fs-md-27{
+        font-size: 27px !important;
+    }
+
+    .fs-md-30{
+      font-size: 30px !important;
+  }
+
+    .fs-md-35{
+        font-size: 35px !important;
+    }
+
+    .fs-md-37{
+        font-size: 37px !important;
+    }
+    
+    .fs-md-40{
+        font-size: 40px !important;
+    }
+
+    .fs-md-45{
+        font-size: 45px !important;
+    }
+
+    .fs-md-47{
+        font-size: 47px !important;
+    }
+
+    .fs-md-55{
+        font-size: 55px !important;
+    }
+
+    .fs-md-60{
+        font-size: 60px !important;
+    }
+
+    .fs-md-67{
+        font-size: 67px !important;
+    }
+
+    .fs-md-69{
+        font-size: 69px !important;
+    }
+
+    .fs-md-70{
+        font-size: 70px !important;
+    }
+
+    .fs-md-75{
+        font-size: 75px !important;
+    }
+
+    .fs-md-85{
+        font-size: 85px !important;
+    }
+    
+
+/* Responsif SM */
+    @media screen and (max-width: 576px) {
+        .arrow-down{
+            width: 35px !important;
+        }
+    }
+  }
+}

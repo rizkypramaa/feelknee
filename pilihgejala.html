@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilih Gejala</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Feel Knee</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Form Pilih Gejala -->
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <h2 class="text-center mb-4">Pilih Gejala yang Anda Alami</h2>
+                <form action="hasil-diagnosa.html" method="POST">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="gejala[]" value="Nyeri Lutut" id="gejala1">
+                                <label class="form-check-label" for="gejala1">Nyeri pada lutut</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="gejala[]" value="Bengkak" id="gejala2">
+                                <label class="form-check-label" for="gejala2">Bengkak di area lutut</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="gejala[]" value="Kaku" id="gejala3">
+                                <label class="form-check-label" for="gejala3">Kaku saat menekuk lutut</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="gejala[]" value="Kelemahan" id="gejala4">
+                                <label class="form-check-label" for="gejala4">Kelemahan pada lutut</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="gejala[]" value="Kemerahan" id="gejala5">
+                                <label class="form-check-label" for="gejala5">Kemerahan di sekitar lutut</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="gejala[]" value="Suara Retak" id="gejala6">
+                                <label class="form-check-label" for="gejala6">Suara retak saat bergerak</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="gejala[]" value="Kesulitan Berjalan" id="gejala7">
+                                <label class="form-check-label" for="gejala7">Kesulitan berjalan</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="gejala[]" value="Nyeri Saat Berdiri" id="gejala8">
+                                <label class="form-check-label" for="gejala8">Nyeri saat berdiri lama</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="gejala[]" value="Lutut Mengunci" id="gejala9">
+                                <label class="form-check-label" for="gejala9">Lutut terasa terkunci</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="gejala[]" value="Nyeri Saat Lari" id="gejala10">
+                                <label class="form-check-label" for="gejala10">Nyeri saat berlari</label>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="gejala[]" value="Nyeri Saat Menekuk" id="gejala11">
+                                <label class="form-check-label" for="gejala11">Nyeri saat menekuk lutut</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="gejala[]" value="Lutut Tidak Stabil" id="gejala12">
+                                <label class="form-check-label" for="gejala12">Lutut terasa tidak stabil</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="gejala[]" value="Sensasi Panas" id="gejala13">
+                                <label class="form-check-label" for="gejala13">Sensasi panas di lutut</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="gejala[]" value="Kesulitan Meluruskan" id="gejala14">
+                                <label class="form-check-label" for="gejala14">Kesulitan meluruskan lutut</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="gejala[]" value="Nyeri Malam Hari" id="gejala15">
+                                <label class="form-check-label" for="gejala15">Nyeri lebih parah di malam hari</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="gejala[]" value="Memar" id="gejala16">
+                                <label class="form-check-label" for="gejala16">Memar di sekitar lutut</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="gejala[]" value="Terasa Kendor" id="gejala17">
+                                <label class="form-check-label" for="gejala17">Terasa kendur atau longgar</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="gejala[]" value="Nyeri Saat Berjongkok" id="gejala18">
+                                <label class="form-check-label" for="gejala18">Nyeri saat berjongkok</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="gejala[]" value="Kekakuan Pagi Hari" id="gejala19">
+                                <label class="form-check-label" for="gejala19">Kekakuan saat bangun tidur</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="gejala[]" value="Cedera Sebelumnya" id="gejala20">
+                                <label class="form-check-label" for="gejala20">Riwayat cedera lutut sebelumnya</label>
+                            </div>
+                        </div>
+                    </div>
+                   <a href="hasil-diagnosa.html">
+                    <div class="d-grid mt-4">
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </div>
+                   </a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
