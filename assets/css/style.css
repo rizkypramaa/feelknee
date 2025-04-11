@@ -195,12 +195,17 @@ html, body {
     margin-left: 20px !important;
 }
 
-/* costum */
+/* custom */
 
 .padding-custom{
     padding-top: 50px;
     padding-left: 100px;
 }
+
+.custom-img {
+    max-width: 80%; /* bisa ganti jadi 100% atau ukuran yang kamu mau */
+    height: auto;   /* biar proporsional */
+  }
 
 .section-1{
     background-image: url(../image/bg1.png);
