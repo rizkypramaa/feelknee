@@ -327,6 +327,9 @@ html, body {
 /* Section 4 */
 
 .section-4{
+  background-image: url(../image/bg4.png);
+  background-position: center;
+  background-size: cover;
   padding: 50px;
   padding-right: 50px;
 }
@@ -528,7 +531,7 @@ html, body {
 
     .section-4{
         background-image: none;
-        background-color: #E1F4FF !important;
+        background-color: #e1ebff;
     }
     .image-slider {
         margin: 30px;
